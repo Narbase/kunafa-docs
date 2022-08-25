@@ -2,21 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="284.03351mm"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1003.338mm"
    height="282.13708mm"
-   viewBox="0 0 284.0335 282.13708"
+   viewBox="0 0 1003.338 282.13708"
    version="1.1"
    id="svg8"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="logo-full.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="kunafa logo.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -59,23 +59,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="1606.1426"
-     inkscape:cy="945.50279"
+     inkscape:cx="1631.397"
+     inkscape:cy="944.94606"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1360"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1022"
+     inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:showpageshadow="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -84,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,7 +92,7 @@
      transform="translate(144.4437,-76.23162)">
     <g
        transform="matrix(1.026479,0,0,0.85486837,7125.6821,-694.70534)"
-       style="font-style:normal;font-weight:normal;font-size:452.304px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.282;fill:url(#linearGradient6801);fill-opacity:1;stroke:none;stroke-width:0.378917px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:452.30395508px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.28200001;fill:url(#linearGradient6801);fill-opacity:1;stroke:none;stroke-width:0.37891665px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="g6793" />
     <g
        transform="translate(724.11285,-1938.0993)"
@@ -110,13 +107,13 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccc" />
         <path
-           style="font-style:normal;font-weight:normal;font-size:452.304px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#a860c6;fill-opacity:1;stroke:none;stroke-width:0.47671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;font-size:452.30395508px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#a860c6;fill-opacity:1;stroke:none;stroke-width:0.47670996px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 149.07341,1911.036 v 136.683 h 112.12204 z"
            id="path1348"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cccc" />
         <path
-           style="opacity:0.449;fill:url(#linearGradient1362);fill-opacity:1;stroke:none;stroke-width:2.01331;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:0.44900004;fill:url(#linearGradient1362);fill-opacity:1;stroke:none;stroke-width:2.01330924;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="m 205.19881,1765.5819 89.73808,152.5168 138.16916,-152.5168 z"
            id="path1350"
            inkscape:connector-curvature="0"
@@ -124,10 +121,21 @@
         <path
            sodipodi:nodetypes="ccccccc"
            inkscape:connector-curvature="0"
-           style="font-style:normal;font-weight:bold;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4b71ec;fill-opacity:1;stroke:none;stroke-width:0.47671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:bold;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4b71ec;fill-opacity:1;stroke:none;stroke-width:0.47670993px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 149.07255,1765.5819 v 41.9856 l 40.06652,49.799 153.36337,190.0907 h 90.6036 L 205.19881,1765.5819 Z"
            id="path1352" />
       </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:206.46231079px;line-height:355.99999428%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="-503.87097"
+         y="2227.8091"
+         id="text1358"><tspan
+           sodipodi:role="line"
+           id="tspan1356"
+           x="-503.87097"
+           y="2227.8091"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#3d3d3d;fill-opacity:1;stroke-width:0.26458332px">Kunafa</tspan></text>
     </g>
   </g>
 </svg>
