@@ -35,7 +35,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Narbase/kunafa-docs',
+          editUrl: 'https://github.com/Narbase/kunafa-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
