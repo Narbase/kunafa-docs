@@ -8,18 +8,18 @@ Here is what will be building.
 And here is the [complete code](https://github.com/Kabbura/kunafa-todo/blob/master/src/main/kotlin/com/narbase/kuntut/App.kt) for the demo.
 
 ### Basic view
-To get things going, create a new Kotlin/Js project (you can follow this guide), and inside the `main()` call the `page` function.
+To get things going, create a new Kotlin/Js project (you can [follow this guide](https://kotlinlang.org/docs/js-project-setup.html)). Then inside the `main()` function call the `page` function.
 ```kotlin
-fun main(args: Array<String>) {
+fun main() {
     page {
         
     }
 }
 ```
-The `page` component correspond to an HTML body, and it is the root of the app. Next, we will create a horizontal layout that has two vertical layouts children.
+The `page` component correspond to an HTML `body`, and it is the root of the app. Next, we will create a horizontal layout that has two vertical layouts children.
 
 ```kotlin
-fun main(args: Array<String>) {
+fun main() {
     page {
         horizontalLayout {
             style {
@@ -92,7 +92,7 @@ Now the add button does nothing. We want it to create a new todo item when click
 Extracting the above view to a component is pretty easy. Just create a component and move the view to the getView function as follows:
 ```kotlin
 
-fun main(args: Array<String>) {
+fun main() {
     page {
         style {
             height = matchParent
@@ -134,7 +134,7 @@ class TodoComponent : Component() {
                     backgroundColor = Color("#fafafa")
                     border = "1px solid #efefef"
                     padding = 8.px
-                    borderRadius = 4.px
+                    borderRadius = 4.px[]()
                     marginTop = 16.px
                 }
             }
