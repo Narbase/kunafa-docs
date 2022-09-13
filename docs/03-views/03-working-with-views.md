@@ -1,6 +1,6 @@
 # Working with Views
 
-## Getting reference of views
+## Getting a reference to a view
 All DSL functions return an instance of the view they create. Assign the return value of the function to get a reference of it.
 
 ```kotlin
@@ -48,7 +48,21 @@ In this example, `label` will be mounted inside the horizontal layout.
 Every view has a nullable `parent: View?` property. When a view is mounted, this property is a reference to the view parent.
 
 ### Creating `detached` views
+You can create a view that is not mounted by calling the DSL function on `detached`. You can then mount it when you need to.
 
+```kotlin
 
-- Common view properties: 
-	- id, isVisible, onClick, style, bind, mount, mountAfter.. 
+val errorMessage = detached.textView { }
+
+// later in the code
+
+if (didErrorOccur) {
+	errorMessage.text = "Error! Try again"
+	parentView.mount(errorMessage)
+}
+```
+
+By the way, `detached` is just [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar) for `null` as you can achieve the same result by calling 
+```kotlin
+val errorMessage = null.textView { }
+```
