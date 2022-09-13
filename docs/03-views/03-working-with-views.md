@@ -12,3 +12,4 @@ TODO
 	- `detached` views
 - Common view properties: 
 	- id, isVisible, onClick, style, bind, mount, mountAfter.. 
+- Accessing the `element`
