@@ -9,7 +9,7 @@ Page is a special view that maps to an HTML body. Normally, it is the root view 
 Calling `page { }` DSL function will clear the HTML body. As such, it should be only called at the beginning of the application. This is useful if you want to add a loading indicator in your `index.html` and it will automatically be cleared with the `page` is called.
 
 ### Page and Server Side Rendering
-You do not need to call `page { }` when using Server Side Rendering as the HTML body is generated at the server. Instead, you hydrate the views. See [server side rendering](01-server-side-rending-basics.md) for more details.
+You do not need to call `page { }` when using Server Side Rendering as the HTML body is generated at the server. Instead, you hydrate the views. See [server side rendering](07-server-side-rendering/01-server-side-rending-basics.md) for more details.
 
 
 ## Linear layouts

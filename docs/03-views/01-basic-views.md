@@ -44,3 +44,6 @@ The `view` defines the common properties and functions such is `id` and `style`.
 
 ## Other views
 Kunafa defines commonly used views such as `TextView`, `ImageView`, and `Button`. There are also [Layouts and Page](02-layouts-and-page.md). Other than that, you can find wrappers for most HTML tags. You can also wrap any arbitrary HTML or create your own view. Check [building custom view](04-building-custom-views.md) page for details.
+
+## Views Properties
+Some views define additional properties and functions in addition to the ones they inherit. For example, `TextView` have `text` property to get and set its text.
