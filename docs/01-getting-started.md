@@ -3,6 +3,16 @@ slug: /
 ---
 # Getting Started
 
+## Kunafa Philosophy
+
+The main goal of Kunafa is to create web development fun. It takes a pragmatic approach to abstracting the complexities of the underlying technologies. As such, it provides helper functions and classes so that developers can think in higher level of abstraction than working directly with HTML, CSS and JavaScript.
+
+Kunafa tries to be a complete solutions for web developers in an unopinionated way.
+
+### What Kunafa is NOT:
+- Kunafa is not a wrapper around HTML and CSS.
+- Kunafa is not a client side only library to create Single Page Applications
+
 ## Why use Kunafa
 ### Declarative views and type safe CSS
 
@@ -100,17 +110,6 @@ page {
 
 ### Server side rending
 Use Kunafa on the server side to generate static HTML and CSS and then hydrate the views on the front end.
-
-
-## Kunafa Philosophy
-
-The main goal of Kunafa is to create web development fun. It takes a pragmatic approach to abstracting the complexities of the underlying technologies. As such, it provides helper functions and classes so that developers can think in higher level of abstraction than working directly with HTML, CSS and JavaScript.
-
-Kunafa tries to be a complete solutions for web developers in an unopinionated way.
-
-### What Kunafa is NOT:
-- Kunafa is not a wrapper around HTML and CSS.
-- Kunafa is not a client side only library to create Single Page Applications
 
 
 ## Hello, World example 
