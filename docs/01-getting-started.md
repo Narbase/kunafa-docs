@@ -3,7 +3,117 @@ slug: /
 ---
 # Getting Started
 
-## Welcome to Kunafa! 
+## Why use Kunafa
+### Declarative views and type safe CSS
+
+```kotlin
+fun main() {
+	page {  
+	    verticalLayout {  
+	        style {  
+	            width = matchParent  
+	            minWidth = 200.px  
+	            height = matchParent  
+	            padding = 32.px  
+	            alignItems = Alignment.Center  
+	        }  
+	  
+	        textView {  
+	            text = "Kunafa Todo"  
+	            style {  
+	                fontSize = 32.px  
+	                color = Color(100, 240, 100)  
+	            }  
+	        }        
+	        button {  
+	            id = "myButton"  
+	            text = "Add to do"  
+	            style {  
+	                marginTop = 16.px  
+	            }  
+	        }   
+		 }
+	}
+}
+
+```
+
+### Components
+Wrap any view in a component class and override lifecycle methods
+```kotlin
+  
+fun main() {  
+    page {  
+        mount(TodoPageComponent())  
+    }  
+}  
+  
+class TodoPageComponent() : Component() {  
+
+	override fun onViewMounted(lifecycleOwner: LifecycleOwner) {  
+	    ServerCaller.getList()  
+	}
+    
+    override fun View?.getView() = verticalLayout {  
+        style {  
+            width = matchParent  
+            minWidth = 200.px  
+            height = matchParent  
+            padding = 32.px  
+            alignItems = Alignment.Center  
+        }  
+  
+        textView {  
+            text = "Kunafa Todo"  
+            style {  
+                fontSize = 32.px  
+                color = Color(100, 240, 100)  
+            }  
+        }        
+        button {  
+            id = "myButton"  
+            text = "Add to do"  
+            style {  
+                marginTop = 16.px  
+            }  
+        }    
+	}
+}
+```
+
+### Builtin routing
+Use declarative routing similar to defining views.
+
+```kotlin
+page {  
+    route("/", isExact = true) {  
+        verticalLayout {  
+            textView { text = "Home" }  
+            link("/page-1") { text = "Go to first page" }  
+        }    
+	}    
+	route("/page-1") {  
+        textView { text = "First page" }  
+    }
+}
+```
+
+### Server side rending
+Use Kunafa on the server side to generate static HTML and CSS and then hydrate the views on the front end.
+
+
+## Kunafa Philosophy
+
+The main goal of Kunafa is to create web development fun. It takes a pragmatic approach to abstracting the complexities of the underlying technologies. As such, it provides helper functions and classes so that developers can think in higher level of abstraction than working directly with HTML, CSS and JavaScript.
+
+Kunafa tries to be a complete solutions for web developers in an unopinionated way.
+
+### What Kunafa is NOT:
+- Kunafa is not a wrapper around HTML and CSS.
+- Kunafa is not a client side only library to create Single Page Applications
+
+
+## Hello, World example 
 It is easy to get started with Kunafa and start front-end web development with Kotlin. This guide will focus on client side rendering. We will discuss server side rendering later.
 
 Here's a summary of the steps to get started:
@@ -11,10 +121,10 @@ Here's a summary of the steps to get started:
 * Add Kunafa dependencies.
 * Write your first Hello World Application
 
-## Create a Kotlin/js project
+### Create a Kotlin/js project
 Setting a new Kotlin JS project is straightforward. Follow the official docs here to set up a project here [Set up a Kotlin/JS project](https://kotlinlang.org/docs/js-project-setup.html)
 
-## Add Kunafa dependencies
+### Add Kunafa dependencies
 To add Kunafa to your project, simply add it to your `build.gradle` (or `build.gradle.kts`) file. 
 
 Add the following line and replace `<latest-version>` with the latest Kunafa version which you can [find here](https://mvnrepository.com/artifact/com.narbase.kunafa/core).
@@ -25,7 +135,7 @@ implementation 'com.narbase.kunafa:core:<latest-version>'
 
 And that's it. Now you can start playing with Kunafa.
 
-## Write your first Hello World Application
+### Write your first Hello World Application
 After you sync your gradle project, create a new Kotlin file named `App.kt`. Then create the `main` function.
 ```kotlin
 fun main() {
