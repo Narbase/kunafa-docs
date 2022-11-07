@@ -108,7 +108,7 @@ page {
 }
 ```
 
-### Server side rending
+### Server-side Rendering
 Use Kunafa on the server side to generate static HTML and CSS and then hydrate the views on the front end.
 
 
